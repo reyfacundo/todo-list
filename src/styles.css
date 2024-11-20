@@ -144,9 +144,10 @@ body {
     border-radius: 7px;
     border: none;
     padding: 15px;
+}
+.exitProject, h3,button{
     color: #faece0;
 }
-
 #addProject .exitProject {
     font-size: 1.4rem;
     margin-left: 5px;
@@ -305,7 +306,6 @@ body {
     border-radius: 7px;
     border: 1px solid #638685;
     padding: 15px;
-    color: #faece0;
 }
 
 #addToDo button[type="submit"] {
@@ -336,7 +336,7 @@ body {
     padding: 0;
     background-color: transparent;
     border: none;
-    color: black;
+    color: #faece0;
     position: absolute;
     top: 0;
     left: 0;
@@ -468,7 +468,7 @@ li {
 input[type="text"],
 input[type="date"],
 input[type="number"] {
-    background-color: #faece0;
+    background-color: #e6d5c7 !important;
     color: var(--text) !important;
     font-weight: bold;
 }
